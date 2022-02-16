@@ -14,7 +14,7 @@ class BlankFragment: Fragment(){
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        return super.onCreateView(inflater, container, savedInstanceState)
+        super.onCreateView(inflater, container, savedInstanceState)
         val root:View = inflater.inflate(R.layout.fragment_blank, container, false)
         setupNavigation(root)
         return root
